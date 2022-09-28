@@ -2484,6 +2484,28 @@
                 "keyint": 2,
                 "max video bitrate": 16000
             }
+        },
+        {
+            "name": "Onestream.live",
+            "alt_names": [
+                "Onestream.live - RTMP"
+            ],
+            "common": false,
+            "stream_key_link": "https://onestream.live/settings/streaming-setup?from=OBS",
+            "servers": [
+                {
+                    "name": "Autodetect",
+                    "url": "rtmp://live.onestream.live/live"
+                },
+                {
+                    "name": "EU-West (London, GB)",
+                    "url": "rtmp://london.onestream.live/live"
+                }
+            
+            ],
+            "recommended": {
+                "keyint": 2
+            }
         }
     ]
 }
