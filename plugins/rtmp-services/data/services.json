@@ -2486,20 +2486,78 @@
             }
         },
         {
-            "name": "Onestream.live",
-            "alt_names": [
-                "Onestream.live - RTMP"
-            ],
+            "name": "Onestream Live",
             "common": false,
-            "stream_key_link": "https://onestream.live/settings/streaming-setup?from=OBS",
+            "more_info_link": "https://helpdesk.onestream.live/en-us/article/how-to-set-up-external-rtmp-source-live-streaming-1akfrx7",
+            "stream_key_link": "https://app.onestream.live/multicast?from=OBS",
             "servers": [
                 {
                     "name": "Autodetect",
-                    "url": "rtmp://live.onestream.live/live"
+                    "url": "rtmps://live.onestream.studio:19350/live"
                 },
                 {
-                    "name": "EU-West (London, GB)",
-                    "url": "rtmp://london.onestream.live/live"
+                    "name": "Asia pacific (Sydney, AU)",
+                    "url": "rtmps://sydney.onestream.studio:19350/live"
+                },
+                {
+                    "name": "South America (Sao Paulo, BR)",
+                    "url": "rtmps://sao-paulo.onestream.studio:19350/live"
+                },
+                {
+                    "name": "EU North (Helsinki, FI)",
+                    "url": "rtmps://helsinki.onestream.studio:19350/live"
+                },
+                {
+                    "name": "EU Central (Falkenstein, DE)",
+                    "url": "rtmps://falkenstein.onestream.studio:19350/live"
+                },
+                {
+                    "name": "India (Mumbai, IN)",
+                    "url": "rtmps://mumbai.onestream.studio:19350/live"
+                },
+                {
+                    "name": "EU West (Amsterdam, NL)",
+                    "url": "rtmps://amsterdam.onestream.studio:19350/live"
+                },
+                {
+                    "name": "South East Asia (Singapore, SG)",
+                    "url": "rtmps://singapore.onestream.studio:19350/live"
+                },
+                {
+                    "name": "EU South (Madrid, ES)",
+                    "url": "rtmps://madrid.onestream.studio:19350/live"
+                },
+                {
+                    "name": "US Central (Chicago, USA)",
+                    "url": "rtmps://chicago.onestream.studio:19350/live"
+                },
+                {
+                    "name": "US South (Miami Florida, USA)",
+                    "url": "rtmps://miami.onestream.studio:19350/live"
+                },
+                {
+                    "name": "South Africa (Johannesberg, SA)",
+                    "url": "rtmps://johannesberg.onestream.studio:19350/live"
+                },
+                {
+                    "name": "EU West (London, UK)",
+                    "url": "rtmps://london.onestream.studio:19350/live"
+                },
+                {
+                    "name": "US South (Dallas, USA)",
+                    "url": "rtmps://dallas.onestream.studio:19350/live"
+                },
+                {
+                    "name": "US East (New York, USA)",
+                    "url": "rtmps://newyork.onestream.studio:19350/live"
+                },
+                {
+                    "name": "US North West (Seattle, USA)",
+                    "url": "rtmps://seattle.onestream.studio:19350/live"
+                },
+                {
+                    "name": "US West (Los Angeles, USA)",
+                    "url": "rtmps://los-angeles.onestream.studio:19350/live"
                 }
             
             ],
