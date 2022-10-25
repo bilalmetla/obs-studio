@@ -2486,7 +2486,7 @@
             }
         },
         {
-            "name": "Onestream Live",
+            "name": "OneStream Live - RTMPS",
             "common": false,
             "more_info_link": "https://helpdesk.onestream.live/en-us/article/how-to-set-up-external-rtmp-source-live-streaming-1akfrx7",
             "stream_key_link": "https://app.onestream.live/multicast?from=OBS",
@@ -2559,10 +2559,94 @@
                     "name": "US West (Los Angeles, USA)",
                     "url": "rtmps://los-angeles.onestream.studio:19350/live"
                 }
-            
             ],
             "recommended": {
-                "keyint": 2
+                "keyint": 3,
+                "max video bitrate": 12000,
+                "max audio bitrate": 128,
+                "max fps": 60
+            }
+        },
+        {
+            "name": "OneStream Live - RTMP",
+            "common": false,
+            "more_info_link": "https://helpdesk.onestream.live/en-us/article/how-to-set-up-external-rtmp-source-live-streaming-1akfrx7",
+            "stream_key_link": "https://app.onestream.live/multicast?from=OBS",
+            "servers": [
+                {
+                    "name": "Autodetect",
+                    "url": "rtmp://live-dev.onestream.studio/live"
+                },
+                {
+                    "name": "Asia pacific (Sydney, AU)",
+                    "url": "rtmp://sydney.onestream.studio/live"
+                },
+                {
+                    "name": "South America (Sao Paulo, BR)",
+                    "url": "rtmp://sao-paulo.onestream.studio/live"
+                },
+                {
+                    "name": "EU North (Helsinki, FI)",
+                    "url": "rtmp://helsinki.onestream.studio/live"
+                },
+                {
+                    "name": "EU Central (Falkenstein, DE)",
+                    "url": "rtmp://falkenstein.onestream.studio/live"
+                },
+                {
+                    "name": "India (Mumbai, IN)",
+                    "url": "rtmp://mumbai.onestream.studio/live"
+                },
+                {
+                    "name": "EU West (Amsterdam, NL)",
+                    "url": "rtmp://amsterdam.onestream.studio/live"
+                },
+                {
+                    "name": "South East Asia (Singapore, SG)",
+                    "url": "rtmp://singapore.onestream.studio/live"
+                },
+                {
+                    "name": "EU South (Madrid, ES)",
+                    "url": "rtmp://madrid.onestream.studio/live"
+                },
+                {
+                    "name": "US Central (Chicago, USA)",
+                    "url": "rtmp://chicago.onestream.studio/live"
+                },
+                {
+                    "name": "US South (Miami Florida, USA)",
+                    "url": "rtmp://miami.onestream.studio/live"
+                },
+                {
+                    "name": "South Africa (Johannesberg, SA)",
+                    "url": "rtmp://johannesberg.onestream.studio/live"
+                },
+                {
+                    "name": "EU West (London, UK)",
+                    "url": "rtmp://london.onestream.studio/live"
+                },
+                {
+                    "name": "US South (Dallas, USA)",
+                    "url": "rtmp://dallas.onestream.studio/live"
+                },
+                {
+                    "name": "US East (New York, USA)",
+                    "url": "rtmp://newyork.onestream.studio/live"
+                },
+                {
+                    "name": "US North West (Seattle, USA)",
+                    "url": "rtmp://seattle.onestream.studio/live"
+                },
+                {
+                    "name": "US West (Los Angeles, USA)",
+                    "url": "rtmp://los-angeles.onestream.studio/live"
+                }
+            ],
+            "recommended": {
+                "keyint": 3,
+                "max video bitrate": 12000,
+                "max audio bitrate": 128,
+                "max fps": 60
             }
         }
     ]
